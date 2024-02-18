@@ -1,15 +1,12 @@
 import Link from "next/link";
-
 import classes from "./main-navigation.module.css";
-import Logo from "./logo";
+import Logo from "./logo/logo";
 
 export default function MainNavigation() {
   return (
-    <header className={classes.header}>
+    <nav className={classes.nav}>
       <Link legacyBehavior href="/">
-        <a>
-          <Logo />
-        </a>
+        <Logo/>
       </Link>
       <ul>
         <li>
@@ -23,6 +20,6 @@ export default function MainNavigation() {
           </Link>
         </li>
       </ul>
-    </header>
+    </nav>
   );
 }

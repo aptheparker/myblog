@@ -1,5 +1,5 @@
 import "../styles/globals.css";
-import MainNavigation from "../components/layout/main-navigation";
+import MainNavigation from "../components/main-navigation/main-navigation";
 
 export const metadata = {
   title: "Next.js",
