@@ -1,7 +1,7 @@
 import Image from "next/image";
-import classes from "./hero.module.css";
+import classes from "./profile.module.css";
 
-export default function Hero() {
+export default function Profile() {
   return (
     <section className={classes.hero}>
       <div className={classes.image}>

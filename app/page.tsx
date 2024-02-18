@@ -1,4 +1,4 @@
-import Hero from "../components/home-page/hero";
+import Profile from "../components/home-page/profile";
 
 export const metadata = {
   title: "aptheparker",
@@ -8,7 +8,7 @@ export const metadata = {
 export default function Home() {
   return (
     <>
-      <Hero />
+      <Profile />
       Posts
     </>
   );
