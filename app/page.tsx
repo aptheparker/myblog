@@ -1,4 +1,4 @@
-import Profile from "../components/home-page/profile";
+import Profile from "./components/home-page/profile";
 
 export const metadata = {
   title: "aptheparker",
