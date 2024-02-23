@@ -1,6 +1,5 @@
-import { get } from "http";
+import AllPosts from "../components/post/all-posts";
 import { getAllPosts } from "../libs/posts-util";
-
 
 export const metadata = {
   title: "All Posts | aptheparker",
@@ -8,12 +7,12 @@ export const metadata = {
 };
 
 export default function PostsPage() {
-  return getAllPosts().map((post) => {
-    return (
-      <div key={post.slug}>
-        <h1>{post.title}</h1>
-        <p>{post.excerpt}</p>
-      </div>
-    );
-  });
+  const allPosts = getPosts();
+  return <AllPosts posts={allPosts} />;
+}
+
+function getPosts() {
+  const projects = getAllPosts();
+
+  return projects;
 }

@@ -1,4 +1,4 @@
-import ContactForm from "../components/contact-page/contact-form";
+import ContactForm from "../components/contact-form/contact-form";
 
 export const metadata = {
   title: "Contact Me | aptheparker",
@@ -6,5 +6,5 @@ export const metadata = {
 };
 
 export default function ContactPage() {
-  return <ContactForm/>;
+  return <ContactForm />;
 }
